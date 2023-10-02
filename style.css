@@ -1,0 +1,19 @@
+.row {
+    margin: 0px auto;
+    width: 1200px;
+    display: flex;
+}
+
+.col, .col-2, .col-3 {
+    background-color: aqua;
+    margin: 10px;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
